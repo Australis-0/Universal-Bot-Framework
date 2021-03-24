@@ -17,19 +17,19 @@
 
  `.parseNumber (arg0_number, options)` - Parses a number into a string, complete with decimal separators.
  options:
- format (String): Set to ‘intl’ by default.
+ format (String): Set to "intl" by default.
  round_to (Number): Set to undefined by default. Rounds to hundreths, thousands depending on input. Specified like so: 0.1 (tenths), 0.01 (hundreths), etc.
 
  `.parseString (arg0_string, options)` - Automatically parses a string into a given format. Defaults to removing all underscores and capitalising the first letter of each new word.
  options:
  capitalise_words (Boolean): Set to true by default.
- delimiter (String): Set to ‘_’ by default.
+ delimiter (String): Set to "_" by default.
 
 ` .randomElement (arg0_array, arg1_min, arg2_max)` - Returns a random element of a provided array between the first and last elements of the array unless arg1_min and arg2_max arguments are provided.
 
  `.randomNumber (arg0_min, arg1_max, options)` - Generates a random integer/number between arg0_min and arg1_max.
  options:
- type (String): integer, number. Set to ‘integer’ by default.
+ type (String): integer, number. Set to "integer" by default.
 
  ### Basic Discord.js Extensions:
 
