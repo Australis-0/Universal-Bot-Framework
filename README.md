@@ -19,7 +19,7 @@
  options:
   type (String): rgb, hex, integer. Set to "rgb" by default. This is the value that parseColor returns, an array in the case of "rgb", a string in the case of "hex", and a number in the case of "integer".
 
- `.parseNumber (arg0_number, options)` - Parses a number into a string, complete with decimal separators.
+ `.parseNumber (arg0_number, options)` - Parses a number into a string, complete with decimal separators.  
  options:
   format (String): Set to "intl" by default.
   round_to (Number): Set to undefined by default. Rounds to hundreths, thousands depending on input. Specified like so: 0.1 (tenths), 0.01 (hundreths), etc.
