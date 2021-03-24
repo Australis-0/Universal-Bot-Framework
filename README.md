@@ -50,13 +50,29 @@
  `.channel.sendEmbed (options)` - Either takes options as a simple string, or as a complex argument, and prints an embed using it.
  options:
   author (String): Set to undefined by default.
-  author_icon (String): Functions as a thumbnail for the author if author is provided. Set to undefined by default.
-  author_url (String): Functions as an author link if author is provided. Set to undefined by default.
+  author_icon (String): Set to undefined by default. Functions as a thumbnail for the author if author is provided.
+  author_url (String): Set to undefined by default. Functions as an author link if author is provided.
   colour (String/Array): Either takes RGB values as array, or RGB/hex values as string.
   description (String): Set to options as a string by default if more complex arguments are not provided.
+  fields (Object Array): Set to undefined by default. Functions as the `fields` argument.
   fixed_width (Boolean): Set to true by default. Overriden if image value is provided.
   footer (String): Set to undefined by default.
   footer_icon (String): Functions as an icon for the footer. Set to undefined by default.
   image (String): Attaches an image as a URL to the embed. Set to undefined by default.
   title (String): Set to undefined by default.
   timestamp (String): Attempts to convert any datestring into a valid timestamp format. Set to undefined by default.
+
+ `.channel.sendSplitEmbed (options)` - Splits an array into an array of multiple embed objects.
+ options:
+  author (Array/String): Set to undefined by default. The author name that should be passed to each split embed.
+  author_icon (Array/String): Set to undefined by default. The author icon URL that should be passed to each split embed.
+  author_url (Array/String): Set to undefined by default. The author URL that should be passed to each split embed.
+  display_pages (Boolean): Set to false by default.
+  fields (Array of Object Arrays/Object Array): Set to undefined by default. Passes fields argument to each split embed.
+  fixed_width (Boolean): Set to true by default. Overriden if image value is provided.
+  footer (Array/String): Set to undefined by default. The footer that will be set underneath all split embeds.
+  image (Array/String): Set to undefined by default. The main image that will be displayed beneath all generated split embeds.
+  set_timestamp (Boolean): Set to false by default. Will display the timestamp along with the footer if a proper argument is passed.
+  max_length (Number): Set to 20 by default. Determines how many lines of text should display on each page.
+  title (Array/String): Set to undefined by default. The main title that will be displayed above all generated split embeds.
+  thumbnail (Array/String): Set to undefined by default. The main thumbnail that will be displayed with all generated split embeds.
