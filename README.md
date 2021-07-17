@@ -73,6 +73,7 @@
   - footer (Array/String): Set to undefined by default. The footer that will be set underneath all split embeds.
   - image (Array/String): Set to undefined by default. The main image that will be displayed beneath all generated split embeds.
   - set_timestamp (Boolean): Set to false by default. Will display the timestamp along with the footer if a proper argument is passed.
+  - max_characters (Number): Set to undefined by default. Overrides max_length, splits lines dynamically to prevent overflow.
   - max_length (Number): Set to 20 by default. Determines how many lines of text should display on each page.
   - title (Array/String): Set to undefined by default. The main title that will be displayed above all generated split embeds.
   - thumbnail (Array/String): Set to undefined by default. The main thumbnail that will be displayed with all generated split embeds.
