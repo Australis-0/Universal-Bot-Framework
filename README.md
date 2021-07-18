@@ -45,6 +45,8 @@
   - save_at_interval (Number): Set to undefined by default. Determines how often data will be written to database.
 
  `.parseCommandLine (arg0_input)` - Returns parsed argument array with quotes accepted.
+ 
+ #### Interface Methods [WIP]:
 
  #### Extended methods:
  `.channel.sendEmbed (options)` - Either takes options as a simple string, or as a complex argument, and prints an embed using it.\
